@@ -22,9 +22,9 @@ const features: FeatureItem[] = [
 
 const Features: React.FC = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-5xl mx-auto px-4 mt-20">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 w-full max-w-5xl mx-auto px-2 md:px-4 mt-12 md:mt-20">
       {features.map((feature, idx) => (
-        <div key={idx} className="glass-card p-6 rounded-xl border border-white/50 hover:border-blue-200 transition-all hover:-translate-y-1 duration-300">
+        <div key={idx} className="glass-card p-5 md:p-6 rounded-xl border border-white/50 hover:border-blue-200 transition-all hover:-translate-y-1 duration-300">
           <div className="bg-slate-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4 text-slate-700">
             {feature.icon}
           </div>
