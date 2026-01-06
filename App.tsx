@@ -3,7 +3,6 @@ import Header from './components/Header';
 import WaitlistForm from './components/WaitlistForm';
 import Background from './components/Background';
 import Features from './components/Features';
-import AiFeaturePreview from './components/AiFeaturePreview';
 
 const App: React.FC = () => {
   return (
@@ -30,8 +29,6 @@ const App: React.FC = () => {
           <div className="mt-4 mb-12">
             <WaitlistForm />
           </div>
-
-          <AiFeaturePreview />
           
           <Features />
         </div>
