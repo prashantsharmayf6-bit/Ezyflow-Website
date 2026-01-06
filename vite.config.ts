@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => {
     define: {
       // This is required to make process.env.API_KEY available in the client-side code
       // consistent with the provided geminiService.ts
-      'process.env.API_KEY': JSON.stringify(env.API_KEY)
+      'process.env.API_KEY': JSON.stringify(env.API_KEY || '')
     }
   };
 });
